@@ -1,1 +1,3 @@
-# hack-a-thing-1-doh-join-me-2
+# hack-a-thing-1-doh
+
+This is the readme.
