@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour {
 	public Text countText;
 	public Text winText;
 	public Text timeText;
-	public float timeLeft;
+	private float timeLeft;
 
 	private Rigidbody rb;
 	private int score;
@@ -39,6 +39,7 @@ public class PlayerController : MonoBehaviour {
 	void Start() {
 		rb = GetComponent<Rigidbody> ();
 		score = 0;
+		timeLeft = 90.0f;
 		SetCountText ();
 		SetTimeText ();
 		lost = false;
