@@ -10,5 +10,12 @@ Jumping: Space bar
 ### Goal
 Collect all the cubes within the time limit, jumping and moving around on the platforms
 
-### Potential Issues
+### Division of work
+Barry worked on setting up the project and initializing the game. In other words, Barry worked on the basic gameplay components.
+David worked on adding extra features to what Barry had done, such as adding a timer, increasing the difficulty by adding platforms, and fixing jump issues.
+
+### Issues
 Jumping is only allowed when the ball has no y\-velocity. Thus, even when the ball has seemingly no y\-velocity, the ball may still not jump, even when the space bar has been pressed. A potential fix is to allow jumping when the y\-velocity is under a certain range, rather than when it is 0.
+
+### Potential Next Steps
+One thing that was discussed but not developed was automating level creation and seeing if the player could move on to another level after beating the previous one.
